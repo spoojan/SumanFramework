@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="186501" started-at="2017-02-26T08:20:40Z" finished-at="2017-02-26T08:23:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="186501" started-at="2017-02-26T08:20:40Z" finished-at="2017-02-26T08:23:46Z">
+      <class name="loginmodule.TestLogin">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="initReport" is-config="true" duration-ms="133" started-at="2017-02-26T13:50:40Z" finished-at="2017-02-26T13:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="50092" started-at="2017-02-26T13:50:40Z" finished-at="2017-02-26T13:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="4802" started-at="2017-02-26T13:51:30Z" data-provider="commondp" finished-at="2017-02-26T13:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=invalidlogin, Uname=iriwey, TC_ID=GB_01, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=oweyrowy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="3634" started-at="2017-02-26T13:51:35Z" finished-at="2017-02-26T13:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="19423" started-at="2017-02-26T13:51:39Z" finished-at="2017-02-26T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="4840" started-at="2017-02-26T13:51:58Z" data-provider="commondp" finished-at="2017-02-26T13:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=invalidlogin, Uname=skdjfksjh, TC_ID=GB_02, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="743" started-at="2017-02-26T13:52:03Z" finished-at="2017-02-26T13:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="14603" started-at="2017-02-26T13:52:04Z" finished-at="2017-02-26T13:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="4432" started-at="2017-02-26T13:52:19Z" data-provider="commondp" finished-at="2017-02-26T13:52:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=2.0, Script=invalidlogin, Uname=lsfkh, TC_ID=GB_02, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="733" started-at="2017-02-26T13:52:23Z" finished-at="2017-02-26T13:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="15801" started-at="2017-02-26T13:52:24Z" finished-at="2017-02-26T13:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="4751" started-at="2017-02-26T13:52:40Z" data-provider="commondp" finished-at="2017-02-26T13:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=invalidlogin, Uname=qtpworld2008@gmail.com, TC_ID=GB_03, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=lsajdfh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="972" started-at="2017-02-26T13:52:44Z" finished-at="2017-02-26T13:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="16198" started-at="2017-02-26T13:52:45Z" finished-at="2017-02-26T13:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="3010" started-at="2017-02-26T13:53:01Z" data-provider="commondp" finished-at="2017-02-26T13:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=invalidlogin, Uname=, TC_ID=GB_04, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="752" started-at="2017-02-26T13:53:04Z" finished-at="2017-02-26T13:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="16314" started-at="2017-02-26T13:53:05Z" finished-at="2017-02-26T13:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="4177" started-at="2017-02-26T13:53:22Z" data-provider="commondp" finished-at="2017-02-26T13:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=invalidlogin, Uname=qtpworld2008@gmail.com, TC_ID=GB_05, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="793" started-at="2017-02-26T13:53:26Z" finished-at="2017-02-26T13:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="launchurl" is-config="true" duration-ms="16696" started-at="2017-02-26T13:53:26Z" finished-at="2017-02-26T13:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="testlogin(java.util.Map)[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="testlogin" duration-ms="2423" started-at="2017-02-26T13:53:43Z" data-provider="commondp" finished-at="2017-02-26T13:53:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=invalidlogin, Uname=, TC_ID=GB_06, Execute=Y, Exp_msg=Sorry we were unable to complete this step because :, Pwd=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginmodule.TestLogin@5622fdf]" name="close" is-config="true" duration-ms="704" started-at="2017-02-26T13:53:46Z" finished-at="2017-02-26T13:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- loginmodule.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
